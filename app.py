@@ -91,7 +91,7 @@ logo={
                 }
 
 if ss:
-    st.info('Select one of the option')
+    #st.info('Select one of the option')
     #radio=st.radio(' ', ['Add new Header','Update exisiting Header'])
 
     if 1==1:
