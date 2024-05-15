@@ -65,7 +65,7 @@ ibutton={
                     "height": 39.52191235059761,
                     "config": "{\"name\":\"88af22203e111f0690dd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1216.2549800796812,\"y\":11.47410358565737,\"z\":11000,\"width\":43.34661354581673,\"height\":39.52191235059761,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'information'\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.sigmoid.com/'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
                     "filters": "[]",
-                    "tabOrder": 11000
+                    "tabOrder": 1100000
                 }
 
 footer_box={
@@ -87,7 +87,7 @@ logo={
                     "height": 33.684210526315795,
                     "config": "{\"name\":\"a9c704f83788977871c7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":30.622009569377994,\"y\":16.842105263157897,\"z\":11001,\"width\":44.40191387559809,\"height\":33.684210526315795,\"tabOrder\":11001}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'arrowChevron'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
                     "filters": "[]",
-                    "tabOrder": 11001
+                    "tabOrder": 1100001
                 }
 
 if ss:
