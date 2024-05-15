@@ -58,14 +58,15 @@ footer_text={
 }
 
 ibutton={
-    "x": 1216.2549800796812,
-    "y": 11.47410358565737,
-    "z": 7001,
-    "width": 43.34661354581673,
-    "height": 39.52191235059761,
-    "config": "{\"name\":\"88af22203e111f0690dd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1216.2549800796812,\"y\":11.47410358565737,\"z\":400000,\"width\":43.34661354581673,\"height\":39.52191235059761}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'information'\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.sigmoid.com/'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
-    "filters": "[]"
-}
+                    "x": 1216.2549800796812,
+                    "y": 11.47410358565737,
+                    "z": 110000,
+                    "width": 43.34661354581673,
+                    "height": 39.52191235059761,
+                    "config": "{\"name\":\"88af22203e111f0690dd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1216.2549800796812,\"y\":11.47410358565737,\"z\":11000,\"width\":43.34661354581673,\"height\":39.52191235059761,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'information'\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.sigmoid.com/'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+                    "filters": "[]",
+                    "tabOrder": 11000
+                }
 
 footer_box={
     "x": 19.123505976095615,
@@ -78,11 +79,22 @@ footer_box={
     "tabOrder": 4000
 }
 
+logo={
+                    "x": 30.622009569377994,
+                    "y": 16.842105263157897,
+                    "z": 11001,
+                    "width": 44.40191387559809,
+                    "height": 33.684210526315795,
+                    "config": "{\"name\":\"a9c704f83788977871c7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":30.622009569377994,\"y\":16.842105263157897,\"z\":11001,\"width\":44.40191387559809,\"height\":33.684210526315795,\"tabOrder\":11001}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'arrowChevron'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+                    "filters": "[]",
+                    "tabOrder": 11001
+                }
+
 if ss:
     st.info('Select one of the option')
-    radio=st.radio(' ', ['Add new Header','Update exisiting Header'])
+    #radio=st.radio(' ', ['Add new Header','Update exisiting Header'])
 
-    if radio=='Add new Header':
+    if 1==1:
         # In-memory byte stream to hold the destination zip file data
         zip_data = io.BytesIO()
 
@@ -114,6 +126,7 @@ if ss:
                                 section['visualContainers'].append(footer_text)
                                 section['visualContainers'].append(footer_box)
                                 section['visualContainers'].append(ibutton)
+                                section['visualContainers'].append(logo)
                                     
                             # New Layout file
                             with open('app-generated.json', 'w') as f:
@@ -138,7 +151,7 @@ if ss:
             file_name='destination.pbix',
             mime='application/pbix'
         )
-    elif radio=='Update exisiting Header':
+    elif 1==2:
         # In-memory byte stream to hold the destination zip file data
         zip_data = io.BytesIO()
 
