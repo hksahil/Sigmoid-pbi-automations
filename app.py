@@ -113,8 +113,6 @@ if ss:
                                 section['visualContainers'].append(new_vc2)
                                 section['visualContainers'].append(footer_text)
                                 section['visualContainers'].append(footer_box)
-                                section['visualContainers'].append(arrow_2)
-                                section['visualContainers'].append(arrows)
                                 section['visualContainers'].append(ibutton)
                                     
                             # New Layout file
