@@ -151,7 +151,6 @@ if ss:
                                 section['visualContainers'].append(ibutton)
                                 section['visualContainers'].append(logo)
                                 section['visualContainers'].append(source_text)
-                                section['visualContainers'].append(bar)
                                 if section['ordinal'] == 0:  # Checking if it's the first page
                                     for visual in section['visualContainers']:
                                          # Load the config dictionary from the JSON string
