@@ -108,9 +108,9 @@ simage={
                     "z": 9001,
                     "width": 121,
                     "height": 66,
-                    "config": "{\"name\":\"0cc86cdfb4a2027a258c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":23,\"y\":14,\"z\":9001,\"width\":121,\"height\":66,\"tabOrder\":6004}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"sigmoidwhite8774132830754273.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+                    "config": "{\"name\":\"0cc86cdfb4a2027a258c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":23,\"y\":14,\"z\":9001,\"width\":121,\"height\":66,\"tabOrder\":600004}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"sigmoidwhite8774132830754273.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
                     "filters": "[]",
-                    "tabOrder": 6004
+                    "tabOrder": 600004
                 }
 
 if ss:
