@@ -103,14 +103,14 @@ bar={
                 }
 
 simage={
-                    "x": 21.673306772908365,
-                    "y": 11.47410358565737,
-                    "z": 12001,
-                    "width": 87.96812749003983,
-                    "height": 39.52191235059761,
-                    "config": "{\"name\":\"c5ae214798ed22d3d4e3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":21.673306772908365,\"y\":11.47410358565737,\"z\":12001,\"width\":87.96812749003983,\"height\":39.52191235059761,\"tabOrder\":12001}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"sigmoid.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+                    "x": 23,
+                    "y": 14,
+                    "z": 9001,
+                    "width": 121,
+                    "height": 66,
+                    "config": "{\"name\":\"0cc86cdfb4a2027a258c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":23,\"y\":14,\"z\":9001,\"width\":121,\"height\":66,\"tabOrder\":6004}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"sigmoidwhite8774132830754273.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
                     "filters": "[]",
-                    "tabOrder": 12001
+                    "tabOrder": 6004
                 }
 
 if ss:
