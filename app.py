@@ -79,17 +79,6 @@ footer_box={
     "tabOrder": 4000
 }
 
-logo={
-                    "x": 30.622009569377994,
-                    "y": 16.842105263157897,
-                    "z": 1100001,
-                    "width": 44.40191387559809,
-                    "height": 33.684210526315795,
-                    "config": "{\"name\":\"a9c704f83788977871c7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":30.622009569377994,\"y\":16.842105263157897,\"z\":1100001,\"width\":44.40191387559809,\"height\":33.684210526315795,\"tabOrder\":1100001}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'arrowChevron'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
-                    "filters": "[]",
-                    "tabOrder": 1100001
-                }
-
 source_text={
                     "x": 122.39043824701194,
                     "y": 656.5737051792828,
@@ -160,7 +149,6 @@ if ss:
                                 section['visualContainers'].append(footer_text)
                                 section['visualContainers'].append(footer_box)
                                 section['visualContainers'].append(ibutton)
-                                section['visualContainers'].append(logo)
                                 section['visualContainers'].append(source_text)
                                 section['visualContainers'].append(simage)
                                 if section['ordinal'] == 0:  # Checking if it's the first page
