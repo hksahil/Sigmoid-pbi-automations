@@ -105,10 +105,10 @@ bar={
 simage={
                     "x": 18.75,
                     "y": 0,
-                    "z": 7000001,
+                    "z": 700000001,
                     "width": 149,
                     "height": 65,
-                    "config": "{\"name\":\"a8959af885feccacc516\",\"layouts\":[{\"id\":0,\"position\":{\"x\":18.75,\"y\":0,\"z\":7000001,\"width\":149,\"height\":65,\"tabOrder\":11001}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"sigmoidwhite877413283075427302803658853871549.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+                    "config": "{\"name\":\"379a21176da467fefcdb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":18.75,\"y\":0,\"z\":700000001,\"width\":149,\"height\":65,\"tabOrder\":11001}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"sigmoidwhite87741328307542732878161122313623.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
                     "filters": "[]",
                     "tabOrder": 11001
                 }
