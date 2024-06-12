@@ -108,7 +108,7 @@ simage={
                     "z": 700001,
                     "width": 149,
                     "height": 65,
-                    "config": "{\"name\":\"a8959af885feccacc516\",\"layouts\":[{\"id\":0,\"position\":{\"x\":18.75,\"y\":0,\"z\":700001,\"width\":32.5,\"height\":12.5,\"tabOrder\":11001}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"sigmoidwhite877413283075427302803658853871549.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+                    "config": "{\"name\":\"a8959af885feccacc516\",\"layouts\":[{\"id\":0,\"position\":{\"x\":18.75,\"y\":0,\"z\":700001,\"width\":149,\"height\":65,\"tabOrder\":11001}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"sigmoidwhite877413283075427302803658853871549.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
                     "filters": "[]",
                     "tabOrder": 11001
                 }
