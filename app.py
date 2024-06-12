@@ -103,13 +103,14 @@ bar={
                 }
 
 simage={
-                    "x": 1,
-                    "y": 10,
-                    "z": 80000000,
-                    "width": 217,
-                    "height": 53,
-                    "config": "{\"name\":\"7cbff43f9b742588acac\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1,\"y\":10,\"z\":80000000,\"width\":217,\"height\":53,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"sigmoidwhite877413283075427312409535708045061.png\"}}}}}]},\"vcObjects\":{\"lockAspect\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
-                    "filters": "[]"
+                    "x": 5.813969993328696,
+                    "y": 0,
+                    "z": 11000,
+                    "width": 227.9076237384849,
+                    "height": 65.1164639252814,
+                    "config": "{\"name\":\"08011354e84b647e1de6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":5.813969993328696,\"y\":0,\"z\":11000,\"width\":227.9076237384849,\"height\":65.1164639252814,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"image_(10)09472004764938458.png\"}}}}}]}}}",
+                    "filters": "[]",
+                    "tabOrder": 11000
                 }
 
 if ss:
