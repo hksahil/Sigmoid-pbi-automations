@@ -106,9 +106,9 @@ simage=            {
                     "x": 31.5,
                     "y": 0,
                     "z": 1111001,
-                    "width": 154.125,
-                    "height": 65.25,
-                    "config": "{\"name\":\"ad67f1d797aaef5c6175\",\"layouts\":[{\"id\":0,\"position\":{\"x\":31.5,\"y\":0,\"z\":1111001,\"width\":154.125,\"height\":65.25,\"tabOrder\":12001}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"white_logo_(1)29274659266154757.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+                    "width": 114,
+                    "height": 65,
+                    "config": "{\"name\":\"ad67f1d797aaef5c6175\",\"layouts\":[{\"id\":0,\"position\":{\"x\":31.5,\"y\":0,\"z\":1111001,\"width\":114,\"height\":65,\"tabOrder\":12001}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"white_logo_(1)29274659266154757.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
                     "filters": "[]",
                     "tabOrder": 12001
                 }
