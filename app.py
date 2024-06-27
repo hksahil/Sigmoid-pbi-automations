@@ -186,7 +186,7 @@ if ss:
                                         
                                         # Pie chart
                                         if config['singleVisual']['visualType'] == 'tableEx':
-                                            st.write('found pie chart in page 1')
+                                            #st.write('found pie chart in page 1')
                                         
                                             # Update main dictionary values
                                             visual['x'] = 20
