@@ -102,15 +102,15 @@ bar={
                     "dataTransforms": "{\"projectionOrdering\":{\"Category\":[0],\"Y\":[1]},\"projectionActiveItems\":{\"Category\":[{\"queryRef\":\"Orders.Category\",\"suppressConcat\":false}]},\"queryMetadata\":{\"Select\":[{\"Restatement\":\"Category\",\"Name\":\"Orders.Category\",\"Type\":2048},{\"Restatement\":\"Sales\",\"Name\":\"Sum(Orders.Sales)\",\"Type\":1}]},\"visualElements\":[{\"DataRoles\":[{\"Name\":\"Category\",\"Projection\":0,\"isActive\":true},{\"Name\":\"Y\",\"Projection\":1,\"isActive\":false}]}],\"selects\":[{\"displayName\":\"Category\",\"queryName\":\"Orders.Category\",\"roles\":{\"Category\":true},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Orders\"}},\"Property\":\"Category\"}}},{\"displayName\":\"Sales\",\"queryName\":\"Sum(Orders.Sales)\",\"roles\":{\"Y\":true},\"sort\":2,\"sortOrder\":0,\"type\":{\"category\":null,\"underlyingType\":259},\"expr\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Orders\"}},\"Property\":\"Sales\"}},\"Function\":0}}}]}"
                 }
 
-simage={
-                    "x": 18.75,
+simage=            {
+                    "x": 31.5,
                     "y": 0,
-                    "z": 700000001,
-                    "width": 149,
-                    "height": 65,
-                    "config": "{\"name\":\"379a21176da467fefcdb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":18.75,\"y\":0,\"z\":700000001,\"width\":149,\"height\":65,\"tabOrder\":11001}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"sigmoidwhite87741328307542732878161122313623.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+                    "z": 1111001,
+                    "width": 154.125,
+                    "height": 65.25,
+                    "config": "{\"name\":\"ad67f1d797aaef5c6175\",\"layouts\":[{\"id\":0,\"position\":{\"x\":31.5,\"y\":0,\"z\":1111001,\"width\":154.125,\"height\":65.25,\"tabOrder\":12001}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"white_logo_(1)29274659266154757.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
                     "filters": "[]",
-                    "tabOrder": 11001
+                    "tabOrder": 12001
                 }
 
 if ss:
