@@ -103,12 +103,12 @@ bar={
                 }
 
 simage=                            {
-                    "x": 65.25,
-                    "y": 0,
+                    "x": 30,
+                    "y": 5,
                     "z": 11111000,
                     "width": 183.375,
                     "height": 51.75,
-                    "config": "{\"name\":\"08011354e84b647e1de6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":65.25,\"y\":0,\"z\":11111000,\"width\":183.375,\"height\":51.75,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"image_(10)09472004764938458.png\"}}}}}]}}}",
+                    "config": "{\"name\":\"08011354e84b647e1de6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":30,\"y\":5,\"z\":11111000,\"width\":183.375,\"height\":51.75,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"image_(10)09472004764938458.png\"}}}}}]}}}",
                     "filters": "[]",
                     "tabOrder": 11000
                 }
