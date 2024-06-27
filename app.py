@@ -112,7 +112,6 @@ simage=                            {
                     "filters": "[]",
                     "tabOrder": 11000
                 }
-st.write(simage)
 
 if ss:
     #st.info('Select one of the option')
@@ -186,21 +185,21 @@ if ss:
                                         #st.write(visual['config'])
                                         
                                         # Pie chart
-                                        if config['singleVisual']['visualType'] == 'pieChart':
-                                            #st.write('found pie chart in page 1')
+                                        if config['singleVisual']['visualType'] == 'tableEx':
+                                            st.write('found pie chart in page 1')
                                         
                                             # Update main dictionary values
-                                            visual['x'] = 464
-                                            visual['y'] = 255
-                                            visual['width'] = 377
-                                            visual['height'] = 363
+                                            visual['x'] = 20
+                                            visual['y'] = 186
+                                            visual['width'] = 1239
+                                            visual['height'] = 453
                                             for layout in config['layouts']:
                                                 # Update the values in the config dictionary
                                                 #st.write('inside config dict')
-                                                layout['position']['x'] = 464
-                                                layout['position']['y'] = 255
-                                                layout['position']['width'] = 377
-                                                layout['position']['height'] = 363
+                                                layout['position']['x'] = 20
+                                                layout['position']['y'] = 186
+                                                layout['position']['width'] = 1239
+                                                layout['position']['height'] = 453
                                                 #st.write(layout['position']['x'],layout['position']['y'])
                                         visual['config']=json.dumps(config)
                                         #st.write(visual['config'])
