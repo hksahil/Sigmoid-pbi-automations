@@ -5,7 +5,7 @@ import zipfile
 import io
 import json
 
-st.title('PowerBI Accelerator by Sigmoid')
+st.title('PowerBI Formatting & Standardization Accelerator')
 
 # Upload the Source zip file
 ss = st.file_uploader('Upload a PBIX file')
